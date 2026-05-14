@@ -25,6 +25,6 @@ pkg install -y clang \
   nodejs 
 
 # setup shell
-cp -f .bash_rc ~/.bash_rc
+cp -f .bashrc ~/.bashrc
 
 cat ~/.ssh/id_ed25519.pub | qrencode -t UTF8
