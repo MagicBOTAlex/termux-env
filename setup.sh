@@ -26,5 +26,6 @@ pkg install -y clang \
 
 # setup shell
 cp -f .bashrc ~/.bashrc
+cp -f .inputrc ~/.inputrc
 
 cat ~/.ssh/id_ed25519.pub | qrencode -t UTF8
