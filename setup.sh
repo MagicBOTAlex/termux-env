@@ -19,5 +19,12 @@ fi
 # setup neovim
 rm -fr ~/.config/nvim
 git clone https://github.com/MagicBOTAlex/NVimConfigs ~/.config/nvim/
+pkg install -y clang \
+  ripgrep \
+  python \
+  nodejs 
+
+# setup shell
+cp -f .bash_rc ~/.bash_rc
 
 cat ~/.ssh/id_ed25519.pub | qrencode -t UTF8
