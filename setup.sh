@@ -6,7 +6,7 @@ pkg install -y neovim \
 
 # Generate ssh if not exist
 if [ ! -f ~/.ssh/id_ed25519 ]; then
-	ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_ed25519 -q -N ""
+	ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -q -N ""
 fi
 
 # setup font
