@@ -20,9 +20,10 @@ fi
 rm -fr ~/.config/nvim
 git clone https://github.com/MagicBOTAlex/NVimConfigs ~/.config/nvim/
 pkg install -y clang \
-  ripgrep \
-  python \
-  nodejs 
+	ripgrep \
+	python \
+	nodejs \
+	starship
 
 # setup shell
 cp -f .bashrc ~/.bashrc
