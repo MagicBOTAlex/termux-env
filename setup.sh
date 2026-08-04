@@ -2,7 +2,8 @@ pkg update
 pkg install -y neovim \
 	git \
 	wget \
-	libqrencode
+	libqrencode \
+  termux-api
 
 # Generate ssh if not exist
 if [ ! -f ~/.ssh/id_ed25519 ]; then
