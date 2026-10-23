@@ -29,5 +29,6 @@ pkg install -y clang \
 # setup shell
 cp -f .bashrc ~/.bashrc
 cp -f .inputrc ~/.inputrc
+cp -f ./termux.properties ~/.termux/termux.properties
 
 cat ~/.ssh/id_ed25519.pub | qrencode -t UTF8
